@@ -9,10 +9,18 @@
 }
 
 Button {
-    background: #eeeeee;
+    background: rgb(238, 238, 238);
     border: 1px solid #000;
     border-radius: 2px;
     padding: 12px 10px;
+    transition: all 200ms ease-in-out;
+}
+
+Button:hover{
+    opacity: 0.75;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px 1px rgba(20, 16, 16, 0.125);
 }
 
 .clear {
