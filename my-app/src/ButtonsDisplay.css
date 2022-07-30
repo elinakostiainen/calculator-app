@@ -9,11 +9,12 @@
 }
 
 Button {
-    background: rgb(238, 238, 238);
+    background: #192294;
     border: 1px solid #000;
     border-radius: 2px;
     padding: 12px 10px;
     transition: all 200ms ease-in-out;
+    color: #e7eaf6;
 }
 
 Button:hover{
@@ -95,5 +96,5 @@ Button:hover{
 
 .equals {
     grid-area: equals;
-    background:#9fd3c7;
+    background:#42cfc4;
 }

@@ -24,4 +24,13 @@ export default function ButtonsDisplay(){
                 <button className="equals">=</button>
             </div>
     )
+
+    function getValue(event){
+        event.preventDefault();
+        alert(`This is the number...`);
+    }
+
+    function getAnswer(event){
+        event.preventDefault();
+    }
 }
